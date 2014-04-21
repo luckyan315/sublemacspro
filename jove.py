@@ -1933,6 +1933,8 @@ class SbpIncSearchCommand(SbpTextCommand):
                 info.done()
             elif cmd == "quit":
                 info.quit()
+            elif cmd == "yank":
+                info.input_view.run_command("sbp_yank")
             else:
                 print("Not handling cmd", cmd, kwargs)
 
