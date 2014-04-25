@@ -230,7 +230,9 @@
 
     // Integration with default find and replace from sublime
     {"keys": ["alt+r"], "command": "show_panel", "args": {"panel": "replace"} },
-    {"keys": ["super+r"], "command": "show_panel", "args": {"panel": "replace"} },
+
+    // user default key-bind of "go to method"
+    // {"keys": ["super+r"], "command": "show_panel", "args": {"panel": "replace"} },
 
     // {"keys": ["ctrl+s"], "command": "find_next",  "context": [
     //         {"key": "panel_visible", "operator": "equal", "operand": true }
